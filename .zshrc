@@ -47,3 +47,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
+# Alias pour installer et synchroniser en une fois
+alias install='sudo apt install && ~/depot/sync.sh'
