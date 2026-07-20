@@ -253,6 +253,7 @@ espeak-ng					install
 espeak-ng-data:amd64				install
 etc1tool					install
 ethtool						install
+evemu-tools					install
 evince						install
 evince-common					install
 evolution					install
@@ -263,6 +264,7 @@ evolution-ews					install
 evolution-plugin-bogofilter			install
 evolution-plugin-pstimport			install
 evolution-plugins				install
+evtest						install
 exodus						install
 f2fs-tools					install
 fakechroot					install
@@ -1141,6 +1143,7 @@ libespeak1:amd64				install
 libestr0:amd64					install
 libevdev2:amd64					install
 libevdocument3-4t64:amd64			install
+libevemu3t64:amd64				install
 libevent-2.1-7t64:amd64				install
 libevent-core-2.1-7t64:amd64			install
 libevolution					install
