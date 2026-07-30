@@ -273,6 +273,7 @@ fakechroot					install
 fakeroot					install
 fastboot					install
 feynmf						deinstall
+ffmpeg						install
 figlet						install
 file						install
 file-roller					install
@@ -2537,6 +2538,7 @@ libxmuu1:amd64					install
 libxpm4:amd64					install
 libxpm4:i386					install
 libxpp3-java					install
+libxpresent1:amd64				install
 libxrandr-dev:amd64				install
 libxrandr2:amd64				install
 libxrandr2:i386					install
@@ -2701,6 +2703,7 @@ mokutil						install
 mount						install
 mousetweaks					install
 mpg123						install
+mpv						install
 mscompress					install
 msr-tools					install
 mtools						install
@@ -3256,6 +3259,7 @@ python3-bcrypt					install
 python3-blinker					install
 python3-bpfcc					install
 python3-brlapi:amd64				install
+python3-brotli					install
 python3-bs4					install
 python3-build					install
 python3-cachetools				install
@@ -3321,6 +3325,7 @@ python3-mdurl					install
 python3-minimal					install
 python3-monotonic				install
 python3-msgpack					install
+python3-mutagen					install
 python3-nacl					install
 python3-natsort					install
 python3-netaddr					install
@@ -3345,6 +3350,7 @@ python3-ptyprocess				install
 python3-pyasn1					install
 python3-pyasn1-modules				install
 python3-pyasyncore				install
+python3-pycryptodome				install
 python3-pydrive2				install
 python3-pyelftools				install
 python3-pygments				install
@@ -3386,6 +3392,7 @@ python3-userpath				install
 python3-venv					install
 python3-wadllib					install
 python3-webencodings				install
+python3-websockets				install
 python3-werkzeug				install
 python3-wheel					install
 python3-wxgtk4.0				install
@@ -3748,6 +3755,7 @@ xxd						install
 xz-utils					install
 yelp						install
 yelp-xsl					install
+yt-dlp						install
 zeal						install
 zeitgeist-core					install
 zenity						install
