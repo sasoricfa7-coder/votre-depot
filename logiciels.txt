@@ -272,6 +272,7 @@ f2fs-tools					install
 fakechroot					install
 fakeroot					install
 fastboot					install
+fdisk						install
 feynmf						deinstall
 ffmpeg						install
 figlet						install
