@@ -33,19 +33,21 @@ alias console='sudo systemctl isolate multi-user.target'
 # -----------------------------
 cmatrix -b -C green
 
+# -----------------------------
+# PATH & ENVIRONMENT
+# -----------------------------
+# Ajout prioritaire du chemin Neovim
+export PATH="/opt/nvim-linux-x86_64/bin:$PATH"
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+# SDKMAN
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-alias buildc='~/Musique/programmeC/fichier/build.sh'
+# NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
-# Alias pour installer et synchroniser en une fois
+# Alias personnels
+alias buildc='~/Musique/programmeC/fichier/build.sh'
 alias install='sudo apt install && ~/depot/sync.sh'
